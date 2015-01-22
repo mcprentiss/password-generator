@@ -8,7 +8,7 @@ import re
 
 def test_password_len():
     """ test length is long enough"""
-    assert len(main()) > 17
+    assert len(main()) > 18
 
 def test_password_num():
     """ test password has a numeral"""
