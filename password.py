@@ -6,7 +6,10 @@ import random
 
 def main():
     """ main function of password """
-    fff = open('/usr/share/dict/words')
+    try:
+        fff = open('/usr/share/dict/words')
+    except IOError:
+        print ("/usr/share/dict/word will not open")
     sss = [x.strip() for x in fff.readlines()]
     pword = ''.join(random.choice(sss) for i in range(1)).capitalize()
     lll = list(pword[0:8] + '!@#$%^&*' + \
@@ -16,4 +19,4 @@ def main():
     return result
 
 if __name__ == '__main__':
-    print main()
+    print(main())
