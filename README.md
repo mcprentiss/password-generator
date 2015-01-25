@@ -2,8 +2,8 @@
 Python program with tests to generate high quality passwords
 
 ## Generating passwords
-On linux systems run `python password.py`.  This requires an installed 
- `/usr/share/dict/words`.
+On linux systems run `python password.py`.  
+This requires an installed `/usr/share/dict/words`.
 
 ## Testing 
 To test this package run `nosetests -v test_password.py`
