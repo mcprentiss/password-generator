@@ -8,3 +8,4 @@ This requires an installed `/usr/share/dict/words`.
 ## Testing 
 To test this package run `nosetests -v test_password.py`
 
+To test with coverage run `nosetests -v  --with-coverage --cover-erase test_password.py`

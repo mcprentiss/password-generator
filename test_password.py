@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 """ tests for random passwords """
 # -*- coding: utf-8 -*-
-
+# http://ivory.idyll.org/articles/nose-intro.html
 from password import main
 import os
 import re
