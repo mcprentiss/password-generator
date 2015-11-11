@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" generate random passwords """
+""" generate random passwords mike"""
 # -*- coding: utf-8 -*-
 
 import random
