@@ -4,6 +4,11 @@
 
 import random
 
+# import q
+# tail -f /tmp/q
+# @q
+# q(fff)
+
 
 def main():
     """    main function of password """
