@@ -15,7 +15,7 @@ setup(
     name="password-generator",
     version="0.1.0",
     author="Michael Prentiss",
-    author_email="andrewjcarter@gmail.com",
+    author_email="xxx@gmail.com",
     description=("a python password generator"),
     license="MIT",
     keywords="passwords",
